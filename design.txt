@@ -1,0 +1,15 @@
+- (done) the player controls a space ship that spawns on the bottom and in the middle of the screen
+- astroids continually spawn from the top
+- the player press SPACE to shoot bullets
+- the player press UP, DOWN, LEFT, RIGHT keys to control the ship
+- the player tries to dodge or destroy the astroids and make sure the spaceship doesn't get hit
+
+Astroids:
+- There are 3 types of astroids:
+	+ Big, medium, small
+	+ When Big is hit: player gains 1 point, spawns 2 medium astroids
+	+ When Medium is hit: player gains 2 points, spawns 2 small astroids
+	+ When Small is hit: player gains 3 points, small astroid is destroyed, and nothing is spawned
+
+Score:
+- Score is recorded on the top right of the screen
