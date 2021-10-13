@@ -3,6 +3,7 @@ from genie_core.cast.Body import Body
 from genie_plugins.services.PygameKeyboardService import PygameKeyboardService
 from genie_plugins.constants import keys
 from cast.PlayerControlledTrait import PlayerControlledTrait
+import pygame
 
 VEL = 4
 
@@ -13,8 +14,9 @@ class HandleInputAction(InputAction):
     
     def execute(self, actors, actions, clock, callback):
         clock.tick()
-        if self._keyboard_service.is_quit():
-            callback.on_stop()
+        # if self._keyboard_service.is_quit():
+        #     callback.on_stop()
+        pygame.event.pump()
 
         player_controlled_actors = actors.with_traits(PlayerControlledTrait)
         for actor in player_controlled_actors:

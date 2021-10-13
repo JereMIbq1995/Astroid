@@ -16,7 +16,7 @@ from script.HandleInputAction import HandleInputAction
 from script.MoveBodiesAction import MoveBodiesAction
 from script.SpawnAstroidsAction import SpawnAstroidsAction
 
-W_SIZE = (500, 900)
+W_SIZE = (500, 700)
 START_POSITION = 200, 250
 SHIP_WIDTH = 40
 SHIP_LENGTH = 55
@@ -32,7 +32,7 @@ def main():
     # Create the player
     player = Actor()
     player.add_trait(Body(W_SIZE[0]/2 - SHIP_LENGTH/2, W_SIZE[1]/10 * 9, width = SHIP_LENGTH, height = SHIP_WIDTH))
-    player.add_trait(Image("C:/Users/Jeremy Duong/Projects/Game/assets/spaceship/spaceship_yellow.png", 1, 180))
+    player.add_trait(Image("assets/spaceship/spaceship_yellow.png", 1, 180))
     player.add_trait(PlayerControlledTrait())
 
     # Give actor(s) to the cast

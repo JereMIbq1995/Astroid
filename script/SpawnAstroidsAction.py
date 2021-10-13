@@ -31,11 +31,11 @@ class SpawnAstroidsAction(UpdateAction):
             as_type = random.randint(0,3)
             image_path = ""
             if as_type == 1:
-                image_path = "C:/Users/Jeremy Duong/Projects/Game/assets/astroids/astroid_large.png"
+                image_path = "assets/astroids/astroid_large.png"
             elif as_type == 2:
-                image_path = "C:/Users/Jeremy Duong/Projects/Game/assets/astroids/astroid_med.png"
+                image_path = "assets/astroids/astroid_med.png"
             else:
-                image_path = "C:/Users/Jeremy Duong/Projects/Game/assets/astroids/astroid_small.png"
+                image_path = "assets/astroids/astroid_small.png"
 
 
             # spawn an astroid
