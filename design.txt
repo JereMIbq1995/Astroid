@@ -1,8 +1,10 @@
 - (done) the player controls a space ship that spawns on the bottom and in the middle of the screen
-- astroids continually spawn from the top
+- (done) astroids continually spawn from the top
 - the player press SPACE to shoot bullets
+- bullets destroy astroids, which spawn more astroids depending on what type the astroid is
 - the player press UP, DOWN, LEFT, RIGHT keys to control the ship
 - the player tries to dodge or destroy the astroids and make sure the spaceship doesn't get hit
+- both the player and the astroid are destroyed if the spaceship hits an astroid.
 
 Astroids:
 - There are 3 types of astroids:
