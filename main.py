@@ -32,7 +32,7 @@ def main():
     # Create the player
     player = Actor()
     player.add_trait(Body(W_SIZE[0]/2 - SHIP_LENGTH/2, W_SIZE[1]/10 * 9, width = SHIP_LENGTH, height = SHIP_WIDTH))
-    player.add_trait(Image("assets/spaceship/spaceship_yellow.png", 1, 180))
+    player.add_trait(Image("assets/spaceship/spaceship_yellow.png", 0.12, 180))
     player.add_trait(PlayerControlledTrait())
 
     # Give actor(s) to the cast
